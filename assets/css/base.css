@@ -1,0 +1,30 @@
+/*--Fonts Imports*/
+@font-face {
+    font-family: Inter;
+    src: url('../fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+/*--Varibales*/
+:root{
+    --color-Green: hsl(75, 94%, 57%);
+    --color-White: hsl(0, 0%, 100%);
+    --color-Grey-700: hsl(0, 0%, 20%);
+    --color-Grey-800: hsl(0, 0%, 12%);
+    --color-Grey-900: hsl(0, 0%, 8%);
+    --Font-size-title: 2.4rem;
+    --Font-size-subtitle: 1.9rem;
+    --Font-size-paragraph: 1.4rem;
+    --Font-size-text: 1rem;
+    --font-Weight-L: 400; 
+    --font-Weight-X: 600; 
+    --font-Weight-XL: 700;
+    --font-family: "Inter";
+}
+/*--Resets--*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}

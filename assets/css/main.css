@@ -1,0 +1,63 @@
+@import url('./base.css');
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-Grey-900);
+    display: grid;
+    place-content: center;
+    font-family: var(--font-family);
+}
+.card{
+    width: 380px;
+    height: auto;
+    background-color: var(--color-Grey-800);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    color: var(--color-White);
+}
+.card__img{
+    width: 22%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 4rem 0 1rem 0;
+}
+.card__datos-nombre{
+    font-size: var( --Font-size-title);
+    font-weight: var(--font-Weight-X);
+}
+.card__datos-ciudad{
+    margin: 1rem 0 .5rem 0;
+    font-size: var(--Font-size-paragraph);
+    color: var(--color-Green);
+}
+.card__descripcion{
+    font-size: var(--Font-size-paragraph);
+    font-weight: var(--font-Weight-L);
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+.card__social{
+    width: 80%;
+    height: auto;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.card__social-btn{
+    width: 100%;
+    height: 4.7rem;
+    background-color: var(--color-Grey-700);
+    color: var(--color-White);
+    font-weight: var(--font-Weight-XL);
+    margin-bottom: 1.7rem;
+    border: none;
+    border-radius: 1rem;
+}
